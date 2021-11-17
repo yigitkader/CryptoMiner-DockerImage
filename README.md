@@ -2,11 +2,12 @@
 
 
 ## RUN FROM DOCKER IMAGE
-    # Simply Run
+    
+    ### Simply Run
 
     docker run -it -e WALLET="{Your Wallet Address}" ryigitkader/cryptominer
 
-    # Customize
+    Customize
     
     docker run -e  -e WALLET="{Your Wallet Address}" -e POOL="{Pool For Monero}" -e VERSION="{Monero Git Version}"
 
@@ -14,7 +15,7 @@
 
     https://hub.docker.com/r/ryigitkader/cryptominer
 
-    ## docker pull ryigitkader/cryptominer
+    docker pull ryigitkader/cryptominer
 
     Chane your wallet addres and if you want pool to. After,
     ## build . -t {image name}
