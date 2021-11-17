@@ -15,9 +15,10 @@
 # RUN FROM DOCKER FILE
 
     https://hub.docker.com/r/ryigitkader/cryptominer
-
-    docker pull ryigitkader/cryptominer
-
+    
+    docker run -it -e WALLET="{YOUR WALLET ADDRESS}" ryigitkader/cryptominer
+    
+    
     Chane your wallet addres and if you want pool to. After,
     
     build . -t {image name}
