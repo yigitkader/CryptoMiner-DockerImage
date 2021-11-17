@@ -1,5 +1,6 @@
 # Crypto Miner Docker Image For Monero Coin
 
+https://ryigitkader.medium.com/create-a-crypto-miner-docker-image-77eb487c833f
 
 ## RUN FROM DOCKER IMAGE
     
