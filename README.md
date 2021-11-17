@@ -1,12 +1,12 @@
 # Crypto Miner Docker Image For Monero Coin
 
 
-# RUN FROM DOCKER IMAGE
-    ## Simply Run
+## RUN FROM DOCKER IMAGE
+    # Simply Run
 
     docker run -it -e WALLET="{Your Wallet Address}" ryigitkader/cryptominer
 
-    ## Customize
+    # Customize
     
     docker run -e  -e WALLET="{Your Wallet Address}" -e POOL="{Pool For Monero}" -e VERSION="{Monero Git Version}"
 
